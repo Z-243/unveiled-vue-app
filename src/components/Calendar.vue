@@ -6,7 +6,7 @@ const { data, lifeExpectancy } = defineProps({
   lifeExpectancy: Object,
 });
 
-// computed vaalues – change when stateful variables change – here lifeExpectancy
+// computed values – change when stateful variables change – here lifeExpectancy
 // create lifeExpectancy array from 0-89
 const yearsArr = computed(() => [...Array(lifeExpectancy.value).keys()]);
 // create array from 0-51
