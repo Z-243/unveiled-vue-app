@@ -19,7 +19,7 @@ const { name, data, handleToggleModal, percentage, resetData } = defineProps({
 });
 
 function copyLink() {
-  navigator.clipboard.writeText("https://github.com/Z-243?tab=repositories");
+  navigator.clipboard.writeText("https://unveiled-time.netlify.app/");
   alert("Link Copied");
 }
 </script>
